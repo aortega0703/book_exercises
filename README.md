@@ -1,2 +1,2 @@
-# solutions contemporary abstract algebra
- Solutions to Gallian, J. A. Contemporary Abstract Algebra (2020)
+Current solutions:
+- Gallian, J. A. Contemporary Abstract Algebra (2020). Chapters 0-2.
