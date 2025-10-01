@@ -12,36 +12,36 @@ Compilation steps for `gcc`:
 \begin{document}
 \begin{tikzcd}[sep=3em]
 \boxed{\large\substack{
-	\text{Source}\\
+	\text{Source}\
 	\texttt{(.c)}}
 }
 	\arrow[r, "\substack{
-	\text{Preprocess}\\
+	\text{Preprocess}\
 	\texttt{gcc -E}}"]
 & \boxed{\large\substack{
-	\text{Expanded}\\
-	\text{Source}\\
+	\text{Expanded}\
+	\text{Source}\
 	\texttt{(.i)}}
 }
 	\arrow[r, "\substack{
-	\text{Compile}\\
+	\text{Compile}\
 	\texttt{gcc -S}}"]
 & \boxed{\large\substack{
-	\text{Assembly}\\
+	\text{Assembly}\
 	\texttt{(.i)}}
 }
 	\arrow[r, "\substack{
-	\text{Assemble}\\
+	\text{Assemble}\
 	\texttt{gcc -c}}"]
 & \boxed{\large\substack{
-	\text{Machine}\\
-	\text{Code}\\
+	\text{Machine}\
+	\text{Code}\
 	\texttt{(.o)}}
 }
 	\arrow[r, "\substack{
-	\text{Link}\\
+	\text{Link}\
 	\texttt{gcc}}"]
-& \boxed{\large\substack{\text{Executable}\\\texttt{(.out)}}}
+& \boxed{\large\substack{\text{Executable}\\texttt{(.out)}}}
 \end{tikzcd}
 \end{document}
 ```
